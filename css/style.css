@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(53, 44, 44);
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.logo img{
+    float: left;
+}
+.botonera{
+    float: right;
+}
+.botonera ul{
+    display: flex;
+    list-style: none;
+}
+.botonera a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: block;
+}
+.banner{
+    position: relative;
+    background: url(../img/img1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+.cont-banner{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.cont-banner p{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.cont-banner h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.cont-banner h3{
+    font-size: 30px;
+}
+.content-one{
+    background-color: rgb(233, 228, 222);
+    width: 100%;
+    padding: 40px;
+}
+.content-details{
+    text-align: center;
+    display: flex;
+}
+.content-two{
+    background-color: rgb(209, 207, 207);
+    width: 100%;
+    padding: 40px;
+}
+.content-item{
+    text-align: center;
+}
+.content-item h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.content-item-img img:hover{
+    background-color: none;
+    transform: rotate(-20deg);
+    transition: 0.5s;
+}
+.content-three{
+    width: 100%;
+    padding: 40px;
+}
+.content-three h3{
+    text-align: center;
+}
+.content-three p{
+    text-align: center;
+    margin: 20px 300px;
+}
